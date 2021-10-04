@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">The App</a>
@@ -55,7 +55,12 @@
 
     <main id="content" class="flex-shrink-0">
         <div class="container">
-
+            <H1>App UI GOES HERE</H1>
+            <form>
+                <input  input id="message" type="text" placeholder="Enter A Message" required>
+                <button id="btnSubmit" type="button" class="btn btn-dark">Normal</button>
+                 <button id="btnSubmit2" type="button" class="btn btn-dark">Sweet Alert</button>
+            </form>
         </div>
     </main>
     <!--footer section-->
@@ -84,6 +89,13 @@
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>
+
+    <script src="js/site.js"></script>
+    <script>
+        document.getElementById("btnSubmit").addEventListener("click",displayMessage);
+         document.getElementById("btnSubmit2").addEventListener("click",displayMessage2);
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

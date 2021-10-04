@@ -34,3 +34,32 @@ footer .social>a:hover{
     opacity: .9;
     color: var(--secondary-color);
 }
+
+.jsicon{
+    color: rgb(226, 223, 31);
+}
+
+.bsicon{
+    color: purple;
+}
+
+.html5icon{
+    color: rgb(238, 17, 17);
+}
+
+.css3icon{
+    color: rgb(11,82,214);
+}
+
+.checklist>li i{
+    color: var(--secondary-color)
+}
+
+
+
+.sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
